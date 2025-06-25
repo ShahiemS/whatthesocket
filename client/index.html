@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WhatTheSocket Client</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      textarea {
+        margin-bottom: 10px;
+      }
+      button {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WhatTheSocket Client</h1>
+
+    <textarea id="log" rows="10" cols="50" readonly></textarea><br />
+
+    <input type="text" id="message" placeholder="Type a message..." />
+    <button id="send">Send</button><br /><br />
+
+    <input id="room" placeholder="Room name" />
+    <button id="join">Join Room</button>
+    <button id="leave">Leave Room</button><br /><br />
+
+    <hr />
+
+    <h2>🎲 Rummikub Game</h2>
+    <button id="joinGame">Join Game</button>
+    <button id="drawTile">Draw Tile</button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
