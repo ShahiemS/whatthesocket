@@ -1,20 +1,23 @@
 {
   "name": "whatthesocket-client",
   "version": "0.1.0",
+  "description": "A lightweight WebSocket client for real-time apps, games, and more.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@vitejs/plugin-react": "^4.6.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^18.3.23",
-    "@types/react-dom": "^18.3.7",
     "typescript": "^4.9.5",
     "vite": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "websocket",
+    "typescript",
+    "sockets",
+    "client"
+  ],
+  "author": "Shahiem Seymor",
+  "license": "SEE LICENSE"
 }
