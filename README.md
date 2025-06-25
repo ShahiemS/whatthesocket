@@ -2,23 +2,12 @@
 
 **WhatTheSocket** is a WebSocket-based real-time communication library designed for flexibility, reliability, and structured JSON-based events. Built on top of `ws`, it supports rooms, rate limiting, reconnections, and more. Making it ideal for building chat apps, multiplayer games, or real-time dashboards.
 
----
-
 ## 🚀 Features
 
 ### 🔌 WebSocket Server
 
 - Lightweight, fast setup with `ws`
 - Custom hooks
-
-### 💬 JSON-Based Event System
-
-- Custom event handling via `.on(event, handler)`
-- Automatic event parsing from JSON payloads
-
-  ```
-
-  ```
 
 ### 👥 Room Management
 
@@ -48,5 +37,3 @@
 ```bash
 npm install whatthesocket
 ```
-
----
