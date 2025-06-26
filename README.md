@@ -34,6 +34,14 @@
 
 ## 📦 Installation
 
+// Server
+
 ```bash
-npm install whatthesocket
+npm install whatthesocket-server
+```
+
+// Client
+
+```bash
+npm install whatthesocket-client
 ```

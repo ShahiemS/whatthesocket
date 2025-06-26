@@ -1,6 +1,6 @@
 {
   "name": "whatthesocket-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight WebSocket client for real-time apps, games, and more.",
   "scripts": {
     "dev": "vite",
